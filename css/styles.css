@@ -1,0 +1,38 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color:brown;
+    text-decoration: underline black;
+}
+
+h3 {
+    text-decoration: underline black;
+}
+
+img {
+    border: 3px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 5px;
+    padding:1px   
+}
+
+.row {
+    display:flex;
+}
+
+.column {
+    flex:50%;
+}
+
+ul {
+    list-style: disc;
+    list-style-type: square;
+}
+
+ul li {
+    color:darkblue;
+    padding:5px;
+}
