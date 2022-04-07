@@ -1,38 +1,47 @@
+/* Sets the background color of the body to aquamarine. */
 body {
     background-color: aquamarine;
 }
 
+/* Sets the h1 color to brown and creates a back underline. */
 h1 {
     color:brown;
     text-decoration: underline black;
 }
 
+/* Sets the h1 color to darkgoldenrod and creates a back underline. */
 h3 {
     color:darkgoldenrod;
     text-decoration: underline black;
 }
 
+/* Creates a solid rounded black border around the image. Makes the cursor a lightning bolt while over image. */
 img {
     border: 3px;
     border-style: solid;
     border-color:black;
     border-radius: 5px;
-    padding:1px   
+    cursor:url('/images/lightningBoltCursor.png'),auto;
 }
 
+/* The following two selectors are used to create the two column setup used on the page. */
+/* Creates an environment using flex boxes. */
 .row {
     display:flex;
 }
 
+/* Creates a flex box that has width equal to 50% of screen width. */
 .column {
     flex:50%;
 }
 
+/* Sets the style used for markers for unordered lists. */
 ul {
     list-style: disc;
     list-style-type: square;
 }
 
+/* Changes the color of items in unordered lists to darkblue and adds padding between items. */
 ul li {
     color:darkblue;
     padding:5px;
